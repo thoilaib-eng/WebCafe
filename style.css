@@ -81,10 +81,6 @@ body {
     transform: scale(0.75);
 }
 
-.News p{
-    font-size: 35px;
-}
-
 .News{
     display:flex;
     gap: 50px;
@@ -179,4 +175,5 @@ footer .theodoi a img{
 
 footer .theodoi a img:hover{
     cursor: pointer;
+
 }
