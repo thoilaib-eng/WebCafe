@@ -1,5 +1,5 @@
 body {
-    background-color: wheat;
+    background-color: #ffddc4;
     text-align: center;
     font-family: Arial, Helvetica,sans-serif;
 }
@@ -7,34 +7,37 @@ body {
 .thanhdieuhuong .Menubar ul{
     list-style: none;
     display: flex;
-    background-color: rgb(240, 133, 151);
+    background-color: #f297a0;
+    margin: 0;
+    padding: 0 70px;
+    align-items: center;
 }
 
 .thanhdieuhuong .Menubar ul li {
-    background-color: rgb(240, 133, 151);
-    margin: 0px 15px;
-    padding: 10px;
+    background-color: #f297a0;
+    padding: 10px 15px;
 }
 
+.thanhdieuhuong .Menubar ul li img{
+    width: 100px;
+    height: auto;
+}
 
 .thanhdieuhuong .Menubar ul li a{
-    background-color: rgb(240, 133, 151);
-    font-family: sans-serif;
-    color: white;
-    font-size:24px;
+    color: #fcfcf1;
+    font-size:23px;
     text-decoration: none;
-    margin: 0px 15px;
-    padding: 10px;
-    text-align: center;
+    padding: 10px 25px;
+    display:block;
 }
 
 .thanhdieuhuong .Menubar ul li:hover a{
-    background-color: rgb(163, 77, 91);
-    color: green;
+    background-color: #c66f80;
+    color: #4a6644;
 }
 
 .banner {
-    width: auto;
+    width: 100%;
     height: auto;
 }
 
@@ -49,7 +52,7 @@ body {
 }
 
 .Menu .button{
-    background-color: rgb(132, 166, 78);
+    background-color: #aaac5c;
     align-items: center;
     border-radius: 20px;
     width: 90px;
@@ -62,8 +65,8 @@ body {
 }
 
 .Menu .button:hover {
-    background-color: rgba(66, 93, 23, 0.96);
-    color:white;
+    background-color: #4a6644;
+    color:#ffffff;
     cursor: pointer;
 }
 
@@ -73,18 +76,36 @@ body {
     gap: 20px;
 }
 
+.Menu .anhminhhoa .cf img:hover{
+    cursor: pointer;
+    transform: scale(0.75);
+}
+
 .News p{
     font-size: 35px;
 }
 
-.News .lienket {
-    display: flex;
-    gap:40px;
-    justify-content: center;
+.News{
+    display:flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.News .lienket h3{
+    width: 400px;
+}
+
+.News .lienket img:hover, h3:hover {
+    cursor: pointer;
+    transform: scale(0.75);
+    text-decoration: underline;
+}
+
+.dangky{
+    background-color: #ffffff;
 }
 
 .dangky h1{
-    background-color: white;
     font-size: 40px;
     text-align: center;
     margin-top: 10px;
@@ -92,21 +113,19 @@ body {
 }
 
 .dangky p{
-    background-color: white;
     margin-top: 5px;
+    font-size: 20px;
 }
 
 .dangky form{
-    background-color: white;
     width: 100%;
     height: 600px;
     margin: auto;
 }
 
 .dangky form input, form textarea {
-    background-color: white;
     display: grid;
-    border: 1px solid black;
+    border: 2px solid black;
     margin:30px auto;
     text-align: left;
     width: 500px;
@@ -115,59 +134,49 @@ body {
 .dangky form button {
     width: 150px;
     height: 50px;
-    background-color: rgba(66, 93, 23, 0.96);
-    color: white;
+    background-color: #4a6644;
+    color: #ffffff;
 }
 
 .dangky form button:hover{
-    background-color: rgb(132, 166, 78);
+    background-color: #aaac5c;
     cursor:pointer;
 }
 
 footer {
     display: flex;
-    gap: 200px;
+    gap: 50px;
     color:white;
-    background-color: rgb(240, 133, 151);
+    background-color: #f297a0;
+    display: flex;
+    font-size: 20px;
 }
 
 footer .thongtin {
-    background-color: rgb(240, 133, 151);
     display: flex;
     flex-direction: column;
-}
-
-footer .thongtin a{
-    background-color: rgb(240, 133, 151);
-    text-align: left;
-    width: 400px;
-}
-
-footer .thongtin p{
-    background-color: rgb(240, 133, 151);
-    font-size: 20px;
     margin-bottom: 10px;
+    width: 600px;
 }
 
 footer .thongtin img{
-    background-color: rgb(240, 133, 151);
+    width: 50px;
+    height: 50px;
 }
 
-footer .nhuongquyen {
-    background-color: rgb(240, 133, 151);
-    font-size: 20px;
+footer .thongtin img:hover{
+    cursor: pointer;
 }
 
-footer .theodoi {
-    background-color: rgb(240, 133, 151);
-    font-size: 20px;
+footer .nhuongquyen p{
+    width: 400px;
 }
 
-footer .theodoi p{
-    background-color: rgb(240, 133, 151);
+footer .theodoi a img{
+    width: 50px;
+    height: 50px;
 }
 
-footer .theodoi a{
-    background-color: rgb(240, 133, 151);
-    margin: 20px;   
+footer .theodoi a img:hover{
+    cursor: pointer;
 }
