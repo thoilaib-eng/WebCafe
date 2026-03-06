@@ -1,0 +1,173 @@
+body {
+    background-color: wheat;
+    text-align: center;
+    font-family: Arial, Helvetica,sans-serif;
+}
+
+.thanhdieuhuong .Menubar ul{
+    list-style: none;
+    display: flex;
+    background-color: rgb(240, 133, 151);
+}
+
+.thanhdieuhuong .Menubar ul li {
+    background-color: rgb(240, 133, 151);
+    margin: 0px 15px;
+    padding: 10px;
+}
+
+
+.thanhdieuhuong .Menubar ul li a{
+    background-color: rgb(240, 133, 151);
+    font-family: sans-serif;
+    color: white;
+    font-size:24px;
+    text-decoration: none;
+    margin: 0px 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.thanhdieuhuong .Menubar ul li:hover a{
+    background-color: rgb(163, 77, 91);
+    color: green;
+}
+
+.banner {
+    width: auto;
+    height: auto;
+}
+
+.Menu h2{
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.Menu p{
+    margin: 5px auto 20px auto;
+    font-size: 20px;
+}
+
+.Menu .button{
+    background-color: rgb(132, 166, 78);
+    align-items: center;
+    border-radius: 20px;
+    width: 90px;
+    height: 50px;
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 15px;
+    margin: auto 15px;
+    margin-bottom: 70px;
+}
+
+.Menu .button:hover {
+    background-color: rgba(66, 93, 23, 0.96);
+    color:white;
+    cursor: pointer;
+}
+
+.Menu .anhminhhoa {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.News p{
+    font-size: 35px;
+}
+
+.News .lienket {
+    display: flex;
+    gap:40px;
+    justify-content: center;
+}
+
+.dangky h1{
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.dangky p{
+    background-color: white;
+    margin-top: 5px;
+}
+
+.dangky form{
+    background-color: white;
+    width: 100%;
+    height: 600px;
+    margin: auto;
+}
+
+.dangky form input, form textarea {
+    background-color: white;
+    display: grid;
+    border: 1px solid black;
+    margin:30px auto;
+    text-align: left;
+    width: 500px;
+}
+
+.dangky form button {
+    width: 150px;
+    height: 50px;
+    background-color: rgba(66, 93, 23, 0.96);
+    color: white;
+}
+
+.dangky form button:hover{
+    background-color: rgb(132, 166, 78);
+    cursor:pointer;
+}
+
+footer {
+    display: flex;
+    gap: 200px;
+    color:white;
+    background-color: rgb(240, 133, 151);
+}
+
+footer .thongtin {
+    background-color: rgb(240, 133, 151);
+    display: flex;
+    flex-direction: column;
+}
+
+footer .thongtin a{
+    background-color: rgb(240, 133, 151);
+    text-align: left;
+    width: 400px;
+}
+
+footer .thongtin p{
+    background-color: rgb(240, 133, 151);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer .thongtin img{
+    background-color: rgb(240, 133, 151);
+}
+
+footer .nhuongquyen {
+    background-color: rgb(240, 133, 151);
+    font-size: 20px;
+}
+
+footer .theodoi {
+    background-color: rgb(240, 133, 151);
+    font-size: 20px;
+}
+
+footer .theodoi p{
+    background-color: rgb(240, 133, 151);
+}
+
+footer .theodoi a{
+    background-color: rgb(240, 133, 151);
+    margin: 20px;   
+}
