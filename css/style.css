@@ -10,31 +10,36 @@ body {
     display: flex;
     background-color: #f297a0;
     margin: 0;
-    padding: 0 70px;
+    padding: 0 20px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .thanhdieuhuong .Menubar ul li {
     background-color: #f297a0;
     padding: 5px;
+    margin-left: 25px;
 }
 
 .thanhdieuhuong .Menubar ul li img{
-    width: 100px;
+    width: 200px;
     height: auto;
+    margin-left: 0;
 }
 
 .thanhdieuhuong .Menubar ul li a{
     color: #fcfcf1;
-    font-size:23px;
+    font-size:20px;
     text-decoration: none;
-    padding: 10px 25px;
+    padding: 10px 15px;
     display:block;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .thanhdieuhuong .Menubar ul li:hover a{
     background-color: #c66f80;
     color: #4a6644;
+    height: 100%;
 }
 
 .banner img{
@@ -147,23 +152,27 @@ body {
 
 footer {
     display: flex;
-    gap: 50px;
     color:white;
     background-color: #f297a0;
-    display: flex;
     font-size: 20px;
+    justify-content:space-around;
 }
 
 footer .thongtin {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-    width: 600px;
+    width: 500px;
+    text-align: left;
 }
 
 footer .thongtin img{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+footer .thongtin .tt a{
+    line-height: 1.8;
 }
 
 footer .thongtin img:hover{
